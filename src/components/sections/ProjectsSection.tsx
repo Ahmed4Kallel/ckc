@@ -7,22 +7,22 @@ import CardOverlay from "@/components/ui/CardOverlay";
 const projects = [
   {
     title: "Modern Urban Home",
-    location: "San Francisco, CA",
+    location: "Hammamet",
     image: "/images/projects/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
     title: "Luxury Beachfront Resort",
-    location: "Sunnyvale, CA",
+    location: "Nabeul",
     image: "/images/projects/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
     title: "Neatural Urban Home",
-    location: "Mountain View, CA",
+    location: "Sousse",
     image: "/images/projects/ckc_pool_cleaned.png",
   },
   {
     title: "Luxury urban Home",
-    location: "Palo Alto, CA",
+    location: "Sfax",
     image: "/images/projects/Remove_logos_and_text_from_202607012107.jpeg",
   },
 ];

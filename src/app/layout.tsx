@@ -3,9 +3,9 @@ import { bayon, cormorantGaramond, instrumentSans } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Archivanta - Webflow HTML Website Template",
+  title: "CKC - Architecture & Design",
   description:
-    "Archivanta is a modern Webflow architecture website template for architects, interior designers, and studios.",
+    "CKC is a modern architecture website for architects, interior designers, and studios.",
 };
 
 export default function RootLayout({

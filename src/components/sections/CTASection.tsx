@@ -27,7 +27,7 @@ export default function CTASection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <PrimaryButton href="mailto:softvence@gmail.com">
+              <PrimaryButton href="mailto:wajdidja@hotmail.fr">
                 Book now
               </PrimaryButton>
             </motion.div>

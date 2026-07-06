@@ -13,7 +13,7 @@ const faqItems = [
   {
     question: "How long does a typical project take?",
     answer:
-      "At Archivanta, we follow a structured process—from consultation and concept development to design refinement and execution—to ensure each project is completed efficiently without compromising quality.",
+      "At CKC, we follow a structured process—from consultation and concept development to design refinement and execution—to ensure each project is completed efficiently without compromising quality.",
   },
   {
     question: "Do you work with startups or only established brands?",

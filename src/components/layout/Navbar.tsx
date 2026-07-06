@@ -11,9 +11,9 @@ const navLinks = [
 ];
 
 const locations = [
-  { label: "New work", href: "https://maps.app.goo.gl/fSDUyRnsWke5jWQ37" },
-  { label: "Queen", href: "https://maps.app.goo.gl/eWWc3y7Ep4urouVRA" },
-  { label: "Florida", href: "https://maps.app.goo.gl/dFjvd3L6pC7UgNqf9" },
+  { label: "Hammamet", href: "https://maps.app.goo.gl/fSDUyRnsWke5jWQ37" },
+  { label: "Nabeul", href: "https://maps.app.goo.gl/eWWc3y7Ep4urouVRA" },
+  { label: "Sousse", href: "https://maps.app.goo.gl/dFjvd3L6pC7UgNqf9" },
 ];
 
 export default function Navbar() {
@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/" className="flex-shrink-0">
               <img
                 src="/images/brand/1.png"
-                alt="ArchiVanta"
+                alt="CKC"
                 className="h-16 w-auto"
               />
             </Link>

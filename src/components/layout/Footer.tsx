@@ -70,7 +70,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <img
                 src="/images/brand/2.png"
-                alt="ArchiVanta"
+                alt="CKC"
                 className="h-16 w-auto"
               />
             </Link>
@@ -136,16 +136,16 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3 text-sm text-white/60">
               <li>
-                <a href="tel:035454354" className="transition-colors hover:text-white">
-                  035454354
+                <a href="tel:+21650222751" className="transition-colors hover:text-white">
+                  +216 50 222 751
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hellow@gmail.com"
+                  href="mailto:wajdidja@hotmail.fr"
                   className="transition-colors hover:text-white"
                 >
-                  hellow@gmail.com
+                  wajdidja@hotmail.fr
                 </a>
               </li>
               <li>
@@ -155,7 +155,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-white"
                 >
-                  Los Angeles
+                  Hammamet
                 </a>
               </li>
             </ul>
@@ -167,18 +167,18 @@ export default function Footer() {
             <p className="text-sm text-white/40">
               &copy; All rights reserved{" "}
               <Link href="/" className="hover:text-white/60">
-                Archivanta
+                CKC
               </Link>
             </p>
             <p className="text-sm text-white/40">
               Powered by{" "}
               <a
-                href="https://webflow.com"
+                href="https://github.com/Ahmed4Kallel/ckc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white/60"
               >
-                Webflow
+                CKC
               </a>
             </p>
           </div>
