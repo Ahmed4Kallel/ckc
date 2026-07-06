@@ -4,20 +4,20 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const quickLinks = [
-  { label: "About", href: "/#About" },
-  { label: "Service", href: "/#Services" },
-  { label: "Projects", href: "/#Projects" },
-  { label: "Works", href: "/#Works" },
+  { label: "Accueil", href: "/#About" },
+  { label: "Services", href: "/#Services" },
+  { label: "Projets", href: "/#Projects" },
+  { label: "Réalisations", href: "/#Works" },
   { label: "FAQ", href: "/#FAQ" },
-  { label: "CTA", href: "/#CTA" },
+  { label: "Contact", href: "/#CTA" },
 ];
 
 const utilityLinks = [
-  { label: "Style Guide", href: "/utility-pages/style-guide" },
-  { label: "Lisense", href: "/utility-pages/lisense" },
-  { label: "Chnagelog", href: "/utility-pages/changelog" },
-  { label: "404", href: "https://archivanta.webflow.io/404" },
-  { label: "Protcted Page", href: "https://archivanta.webflow.io/401" },
+  { label: "Guide de style", href: "/utility-pages/style-guide" },
+  { label: "Licence", href: "/utility-pages/lisense" },
+  { label: "Changelog", href: "/utility-pages/changelog" },
+  { label: "404", href: "/404" },
+  { label: "Page protégée", href: "/401" },
   { label: "Instructions", href: "/utility-pages/instructions" },
 ];
 
@@ -75,7 +75,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Properties in prime areas with key amenities.
+              Propriétés dans des zones stratégiques avec des équipements essentiels.
             </p>
             <div className="mt-6 flex gap-3">
               {socialLinks.map((social) => (
@@ -95,8 +95,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
-              Quick Links
+              <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
+              Liens rapides
             </h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -113,8 +113,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
-              Utility Links
+              <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
+              Liens utiles
             </h4>
             <ul className="space-y-3">
               {utilityLinks.map((link) => (
@@ -131,8 +131,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
-              Contact us
+              <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">
+              Contactez-nous
             </h4>
             <ul className="space-y-3 text-sm text-white/60">
               <li>
@@ -165,13 +165,13 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/10 pt-8">
           <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
             <p className="text-sm text-white/40">
-              &copy; All rights reserved{" "}
+              &copy; Tous droits réservés{" "}
               <Link href="/" className="hover:text-white/60">
                 CKC
               </Link>
             </p>
             <p className="text-sm text-white/40">
-              Powered by{" "}
+              Propulsé par{" "}
               <a
                 href="https://github.com/Ahmed4Kallel/ckc"
                 target="_blank"

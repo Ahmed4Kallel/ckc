@@ -13,32 +13,32 @@ const serviceImages = [
 
 const serviceCards = [
   {
-    title: "Residential design",
+    title: "Design résidentiel",
     description:
-      "We integrate eco-friendly materials and energy-efficient solutions to build",
+      "Nous intégrons des matériaux écologiques et des solutions écoénergétiques pour construire",
   },
   {
-    title: "Commercial design",
+    title: "Design commercial",
     description:
-      "From modern minimalism to intricate classical forms, we bring unique artistic",
+      "Du minimalisme moderne aux formes classiques complexes, nous apportons un art unique",
   },
   {
-    title: "Landscape design",
+    title: "Design paysager",
     description:
-      "Our team's expertise ensures professionalism and reliability, making",
+      "L'expertise de notre équipe garantit professionnalisme et fiabilité, rendant",
   },
 ];
 
 const interiorCard = {
-  title: "Interior design",
+  title: "Design d'intérieur",
   description:
-    "Our team's expertise ensures professionalism and reliability, making your",
+    "L'expertise de notre équipe garantit professionnalisme et fiabilité, rendant votre",
 };
 
 const sustainableCard = {
-  title: "Sustainable architect",
+  title: "Architecte durable",
   description:
-    "Our designs beauty with stability, ensuring durability and safety without compromising",
+    "Nos designs allient beauté et stabilité, garantissant durabilité et sécurité sans compromis",
 };
 
 export default function ServicesSection() {
@@ -54,8 +54,8 @@ export default function ServicesSection() {
         >
           <SectionHeading
             tag="Services"
-            title="Architecture services"
-            description="We believe in the perfection with structure"
+            title="Services d'architecture"
+            description="Nous croyons en la perfection avec la structure"
           />
         </motion.div>
 

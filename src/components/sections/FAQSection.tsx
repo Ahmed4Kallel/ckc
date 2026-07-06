@@ -6,29 +6,29 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 const faqItems = [
   {
-    question: "Do you offer 3D visualization?",
+    question: "Proposez-vous de la visualisation 3D ?",
     answer:
-      "Yes. We create photorealistic 3D renders for luxury villas and interiors, turning your blueprints into high-end marketing visuals.",
+      "Oui. Nous créons des rendus 3D photoréalistes pour les villas de luxe et les intérieurs, transformant vos plans en visuels marketing haut de gamme.",
   },
   {
-    question: "How long does a typical project take?",
+    question: "Combien de temps dure un projet typique ?",
     answer:
-      "At CKC, we follow a structured process—from consultation and concept development to design refinement and execution—to ensure each project is completed efficiently without compromising quality.",
+      "Chez CKC, nous suivons un processus structuré — de la consultation et du développement conceptuel à l'affinage et à l'exécution du design — pour garantir que chaque projet soit réalisé efficacement sans compromettre la qualité.",
   },
   {
-    question: "Do you work with startups or only established brands?",
+    question: "Travaillez-vous avec des startups ou uniquement des marques établies ?",
     answer:
-      "We work with both startups and established brands. Whether you're launching a new concept or evolving an existing space, our approach is tailored to your goals, vision, and stage of growth.",
+      "Nous travaillons avec les startups et les marques établies. Que vous lanciez un nouveau concept ou fassiez évoluer un espace existant, notre approche est adaptée à vos objectifs, votre vision et votre stade de croissance.",
   },
   {
-    question: "Will my site handle high-res images?",
+    question: "Mon site gérera-t-il des images haute résolution ?",
     answer:
-      "Yes, your site is fully capable of handling high-resolution images. We optimize every image for web performance, ensuring they maintain visual quality while loading quickly across all devices.",
+      "Oui, votre site est entièrement capable de gérer des images haute résolution. Nous optimisons chaque image pour les performances web, en veillant à ce qu'elles maintiennent leur qualité visuelle tout en se chargeant rapidement sur tous les appareils.",
   },
   {
-    question: "What is required to start a project?",
+    question: "Qu'est-il nécessaire pour démarrer un projet ?",
     answer:
-      "We'll begin with an initial consultation to discuss your ideas, followed by a proposal outlining the timeline, deliverables, and budget.",
+      "Nous commencerons par une consultation initiale pour discuter de vos idées, suivie d'une proposition détaillant le calendrier, les livrables et le budget.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function FAQSection() {
         >
           <SectionHeading
             tag="FAQ"
-            title="Frequently asked questions"
+            title="Questions fréquentes"
           />
         </motion.div>
 

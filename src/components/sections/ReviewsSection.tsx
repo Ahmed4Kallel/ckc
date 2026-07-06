@@ -7,12 +7,12 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const reviewStats = [
   {
     rating: "4.9",
-    label: "From bustling urban condos to peaceful...",
+    label: "Des appartements urbains animés aux espaces paisibles...",
     ratingLabel: "4.9 / 5.0",
   },
   {
     rating: "4.9",
-    label: "On average for home owner cost savings",
+    label: "Économie moyenne pour les propriétaires",
     ratingLabel: "4.9 / 5.0",
   },
 ];
@@ -20,26 +20,26 @@ const reviewStats = [
 const testimonials = [
   {
     name: "Devid Jones",
-    role: "House Owner",
-    text: "Immerse yourself in a world where luxury meets sustainability, offering a seamless blend of comfort and innovation.",
+    role: "Propriétaire",
+    text: "Plongez dans un monde où le luxe rencontre la durabilité, offrant un mélange harmonieux de confort et d'innovation.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
     name: "Sarah Mitchell",
-    role: "Property Developer",
-    text: "The attention to detail and commitment to excellence transformed our vision into reality. Truly outstanding work.",
+    role: "Développeuse immobilière",
+    text: "L'attention aux détails et l'engagement envers l'excellence ont transformé notre vision en réalité. Un travail vraiment exceptionnel.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
     name: "Michael Chen",
-    role: "Architect",
-    text: "Working with this team elevated our project beyond expectations. Their innovative approach sets them apart.",
+    role: "Architecte",
+    text: "Travailler avec cette équipe a élevé notre projet au-delà de nos attentes. Leur approche innovante les distingue.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
   },
   {
     name: "Emily Watson",
-    role: "Interior Designer",
-    text: "Every aspect of the design was handled with precision and care. The results speak for themselves.",
+    role: "Designer d'intérieur",
+    text: "Chaque aspect du design a été traité avec précision et soin. Les résultats parlent d'eux-mêmes.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
   },
 ];
@@ -141,9 +141,9 @@ export default function ReviewsSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="Reviews"
-            title="Hear from our user"
-            description="Read how our users have achieved success"
+            tag="Avis"
+            title="Écoutez nos clients"
+            description="Découvrez comment nos clients ont atteint le succès"
           />
         </motion.div>
 

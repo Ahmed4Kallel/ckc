@@ -11,34 +11,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
   {
-    step: "Step 1",
+    step: "Étape 1",
     title: "Consultation & briefing",
     description:
-      "We understand your goals, site, and vision with clarity.",
+      "Nous comprenons vos objectifs, votre site et votre vision avec clarté.",
   },
   {
-    step: "Step 2",
-    title: "Concept design",
+    step: "Étape 2",
+    title: "Conception",
     description:
-      "Initial sketches, mood boards, and layout plans are created.",
+      "Les premières esquisses, plans d'humeur et dispositions sont créés.",
   },
   {
-    step: "Step 3",
-    title: "Design development",
+    step: "Étape 3",
+    title: "Développement du design",
     description:
-      "Technical drawings, materials, and details are finalized.",
+      "Les dessins techniques, matériaux et détails sont finalisés.",
   },
   {
-    step: "Step 4",
-    title: "Refinement & review",
+    step: "Étape 4",
+    title: "Affinage & révision",
     description:
-      "We understand your goals, site, and vision with clarity.",
+      "Nous affinons chaque détail pour garantir la perfection du projet.",
   },
   {
-    step: "Step 5",
-    title: "Project Delivery",
+    step: "Étape 5",
+    title: "Livraison du projet",
     description:
-      "From permits to construction oversight, we handle execution.",
+      "Des permis à la supervision de la construction, nous gérons l'exécution.",
   },
 ];
 
@@ -82,9 +82,9 @@ export default function HowWeWorkSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="How we work"
-            title="A pathway to Creation"
-            description="We believe in the perfection with structure"
+            tag="Notre processus"
+            title="Un chemin vers la création"
+            description="Nous croyons en la perfection avec la structure"
           />
         </motion.div>
 

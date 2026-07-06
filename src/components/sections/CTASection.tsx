@@ -17,8 +17,8 @@ export default function CTASection() {
               viewport={{ once: true, margin: "-100px" }}
             >
               <SectionHeading
-                tag="Let's get started"
-                title="Let's build calm, timeless spaces together"
+                tag="Commençons"
+                title="Construisons ensemble des espaces calmes et intemporels"
               />
             </motion.div>
             <motion.div
@@ -28,7 +28,7 @@ export default function CTASection() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <PrimaryButton href="mailto:wajdidja@hotmail.fr">
-                Book now
+                Réservez maintenant
               </PrimaryButton>
             </motion.div>
           </div>

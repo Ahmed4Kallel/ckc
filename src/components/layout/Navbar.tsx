@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const navLinks = [
-  { label: "About", href: "/#About" },
-  { label: "Projects", href: "/#Projects" },
+  { label: "Accueil", href: "/#About" },
+  { label: "Projets", href: "/#Projects" },
   { label: "Services", href: "/#Services" },
 ];
 
@@ -34,7 +34,7 @@ export default function Navbar() {
 
             <div className="hidden items-center gap-8 md:flex">
               <span className="text-xs font-medium uppercase tracking-widest text-[#535353]">
-                Based in:
+                Basé à :
               </span>
               {locations.map((loc) => (
                 <a

@@ -6,22 +6,22 @@ import CardOverlay from "@/components/ui/CardOverlay";
 
 const projects = [
   {
-    title: "Modern Urban Home",
+    title: "Maison urbaine moderne",
     location: "Hammamet",
     image: "/images/projects/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
-    title: "Luxury Beachfront Resort",
+    title: "Resort de luxe en bord de mer",
     location: "Nabeul",
     image: "/images/projects/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
-    title: "Neatural Urban Home",
+    title: "Maison urbaine naturelle",
     location: "Sousse",
     image: "/images/projects/ckc_pool_cleaned.png",
   },
   {
-    title: "Luxury urban Home",
+    title: "Maison de luxe",
     location: "Sfax",
     image: "/images/projects/Remove_logos_and_text_from_202607012107.jpeg",
   },
@@ -37,9 +37,9 @@ export default function ProjectsSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="Projects"
-            title="Designed Perfection"
-            description="Our portfolio of award-winning designs that have transformed skylines"
+            tag="Projets"
+            title="Perfectionnée"
+            description="Notre portefeuille de designs primés qui ont transformé les lignes d'horizon"
             centered
           />
         </motion.div>

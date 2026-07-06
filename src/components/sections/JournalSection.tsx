@@ -7,23 +7,23 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const articles = [
   {
     slug: "real-estate-market-trends",
-    title: "Real estate market trends",
-    date: "April 28, 2026",
-    category: "News",
+    title: "Tendances du marché immobilier",
+    date: "28 avril 2026",
+    category: "Actualités",
     image: "/images/journal/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
     slug: "functional-interiors-the-secret",
-    title: "Functional Interiors: The Secret",
-    date: "April 28, 2026",
-    category: "News",
+    title: "Intérieurs fonctionnels : Le secret",
+    date: "28 avril 2026",
+    category: "Actualités",
     image: "/images/journal/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
     slug: "real-estate-market",
-    title: "Real estate market",
-    date: "April 28, 2026",
-    category: "News",
+    title: "Marché immobilier",
+    date: "28 avril 2026",
+    category: "Actualités",
     image: "/images/journal/ckc_pool_cleaned.png",
   },
 ];
@@ -39,8 +39,8 @@ export default function JournalSection() {
         >
           <SectionHeading
             tag="Journal"
-            title="Our insights"
-            description="At every home embodies precision and elegance."
+            title="Nos insights"
+            description="Chaque maison incarne précision et élégance."
           />
         </motion.div>
 

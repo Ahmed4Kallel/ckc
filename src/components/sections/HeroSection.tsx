@@ -35,7 +35,7 @@ const marqueeImages = [
   { src: "/images/hero/luxury_pool_ad.png", alt: "Spacious interior" },
 ];
 
-const tags = ["Smart Planning", "Seamless Workflow", "Precise Execution"];
+const tags = ["Planification intelligente", "Flux de travail fluide", "Exécution précise"];
 
 export default function HeroSection() {
   return (
@@ -89,9 +89,10 @@ export default function HeroSection() {
 
             <motion.div className="md:w-1/2" variants={fadeUp}>
               <p className="mb-6 max-w-lg text-base leading-relaxed text-[#535353] md:text-lg">
-                _We create innovative architectural solutions with structured
-                layouts, detailed planning, and guided design processes delivering
-                clarity, efficiency,  precision.
+              _Nous créons des solutions architecturales innovantes avec des
+              dispositions structurées, une planification détaillée et des
+              processus de conception guidés offrant clarté, efficacité et
+              précision.
               </p>
 
               <MarqueeStrip reverse className="py-4" duration={15}>

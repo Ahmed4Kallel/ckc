@@ -8,31 +8,31 @@ const features = [
   {
     mainImage: "/images/featured/Remove_logos_and_text_from_202607012107.jpeg",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Dining room", "Serenity residence", "Aura living space"],
+    titles: ["Salle à manger", "Résidence Sérénité", "Espace de vie Aura"],
     details: [
-      { label: "Area", value: "400 m\u00B2" },
-      { label: "Bath room", value: "2" },
-      { label: "Style", value: "Modern" },
+      { label: "Surface", value: "400 m\u00B2" },
+      { label: "Salle de bain", value: "2" },
+      { label: "Style", value: "Moderne" },
     ],
   },
   {
     mainImage: "/images/featured/Remove_logos_and_text_from_202607012110.jpeg",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Serenity residence", "Aura living space", "Dining room"],
+    titles: ["Résidence Sérénité", "Espace de vie Aura", "Salle à manger"],
     details: [
-      { label: "Area", value: "400 m\u00B2" },
-      { label: "Bath room", value: "2" },
-      { label: "Style", value: "Brown" },
+      { label: "Surface", value: "400 m\u00B2" },
+      { label: "Salle de bain", value: "2" },
+      { label: "Style", value: "Marron" },
     ],
   },
   {
     mainImage: "/images/featured/ckc_pool_cleaned.png",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Aura living space", "Dining room", "Serenity residence"],
+    titles: ["Espace de vie Aura", "Salle à manger", "Résidence Sérénité"],
     details: [
-      { label: "Area", value: "400 m\u00B2" },
-      { label: "Bath room", value: "2" },
-      { label: "Style", value: "Brown" },
+      { label: "Surface", value: "400 m\u00B2" },
+      { label: "Salle de bain", value: "2" },
+      { label: "Style", value: "Marron" },
     ],
   },
 ];
@@ -121,9 +121,9 @@ export default function FeaturedWorksSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="Featured works"
-            title="Our signature works"
-            description="Explore our most refined and high-impact architectural projects, crafted with precision, creativity, and modern aesthetics."
+            tag="Réalisations"
+            title="Nos œuvres signature"
+            description="Découvrez nos projets architecturaux les plus raffinés et à fort impact, créés avec précision, créativité et esthétique moderne."
           />
         </motion.div>
 
