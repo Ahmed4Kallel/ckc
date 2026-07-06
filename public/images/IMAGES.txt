@@ -1,0 +1,53 @@
+# Fichiers image à placer dans public/images/
+
+## Hero (`public/images/hero/`)
+- hero-sky.jpg       → Image fond ciel (1920x1080)
+- hero-house.jpg     → Maison moderne en premier plan
+- hero-marquee-1.jpg → Maison marquee 1
+- hero-marquee-2.jpg → Maison marquee 2
+- hero-marquee-3.jpg → Maison marquee 3
+
+## About (`public/images/about/`)
+- about-1.jpg → Carte architecture 1 (recommandé: 800x1000)
+- about-2.jpg → Carte architecture 2
+- about-3.jpg → Carte architecture 3
+
+## Projects (`public/images/projects/`)
+- project-1.jpg → Carte projet 1 (recommandé: 800x600)
+- project-2.jpg → Carte projet 2
+- project-3.jpg → Carte projet 3
+
+## Services (`public/images/services/`)
+- service-1.jpg      → Tab service 1
+- service-2.jpg      → Tab service 2
+- service-3.jpg      → Tab service 3
+- service-interior.jpg → Image intérieur secondaire
+
+## Featured (`public/images/featured/`)
+- featured-1-main.jpg  → Carte 1 image principale
+- featured-1-small.jpg → Carte 1 miniature
+- featured-2-main.jpg  → Carte 2 image principale
+- featured-2-small.jpg → Carte 2 miniature
+- featured-3-main.jpg  → Carte 3 image principale
+- featured-3-small.jpg → Carte 3 miniature
+
+## How We Work (`public/images/howwework/`)
+- hww-1.jpg → Thumbnail 1 (rendu 3D/map)
+- hww-2.jpg → Thumbnail 2 (plan d'etage)
+
+## Reviews (`public/images/reviews/`)
+- avatar-1.jpg → Avatar client 1 (80x80)
+- avatar-2.jpg → Avatar client 2
+- avatar-3.jpg → Avatar client 3
+- avatar-4.jpg → Avatar client 4
+- review-video-poster.jpg → Poster video
+- review-video.mp4 → Video background (mp4)
+
+## Journal (`public/images/journal/`)
+- journal-1.jpg → Article 1 banniere
+- journal-2.jpg → Article 2 banniere
+- journal-3.jpg → Article 3 banniere
+
+## CTA (`public/images/cta/`)
+- cta-1.jpg → Image CTA gauche
+- cta-2.jpg → Image CTA droite
