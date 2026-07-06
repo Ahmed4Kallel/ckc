@@ -181,7 +181,7 @@ export default function ReviewsSection() {
               playsInline
             >
               <source
-                src="/images/reviews/review-video.mp4"
+                src="/images/video/2.mp4"
                 type="video/mp4"
               />
             </video>
