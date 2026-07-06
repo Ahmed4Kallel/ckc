@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { bayon, cormorantGaramond, instrumentSans } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "CKC - Architecture & Design",
   description:
-    "CKC est un site d'architecture moderne pour les architectes, designers d'intérieur et studios.",
+    "CKC est un site d'architecture moderne pour les architectes, designers d'interieur et studios.",
 };
 
 export default function RootLayout({

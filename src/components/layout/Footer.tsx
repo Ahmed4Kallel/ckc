@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -7,7 +7,7 @@ const quickLinks = [
   { label: "Accueil", href: "/#About" },
   { label: "Services", href: "/#Services" },
   { label: "Projets", href: "/#Projects" },
-  { label: "Réalisations", href: "/#Works" },
+  { label: "Realisations", href: "/#Works" },
   { label: "FAQ", href: "/#FAQ" },
   { label: "Contact", href: "/#CTA" },
 ];
@@ -17,7 +17,7 @@ const utilityLinks = [
   { label: "Licence", href: "/utility-pages/lisense" },
   { label: "Changelog", href: "/utility-pages/changelog" },
   { label: "404", href: "/404" },
-  { label: "Page protégée", href: "/401" },
+  { label: "Page protegee", href: "/401" },
   { label: "Instructions", href: "/utility-pages/instructions" },
 ];
 
@@ -75,7 +75,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Propriétés dans des zones stratégiques avec des équipements essentiels.
+              Proprietes dans des zones strategiques avec des equipements essentiels.
             </p>
             <div className="mt-6 flex gap-3">
               {socialLinks.map((social) => (
@@ -165,13 +165,13 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/10 pt-8">
           <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
             <p className="text-sm text-white/40">
-              &copy; Tous droits réservés{" "}
+              &copy; Tous droits reserves{" "}
               <Link href="/" className="hover:text-white/60">
                 CKC
               </Link>
             </p>
             <p className="text-sm text-white/40">
-              Propulsé par{" "}
+              Propulse par{" "}
               <a
                 href="https://github.com/Ahmed4Kallel/ckc"
                 target="_blank"

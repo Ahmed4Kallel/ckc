@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -17,7 +17,7 @@ export default function CTASection() {
               viewport={{ once: true, margin: "-100px" }}
             >
               <SectionHeading
-                tag="Commençons"
+                tag="Commencons"
                 title="Construisons ensemble des espaces calmes et intemporels"
               />
             </motion.div>
@@ -28,7 +28,7 @@ export default function CTASection() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <PrimaryButton href="mailto:wajdidja@hotmail.fr">
-                Réservez maintenant
+                Reservez maintenant
               </PrimaryButton>
             </motion.div>
           </div>

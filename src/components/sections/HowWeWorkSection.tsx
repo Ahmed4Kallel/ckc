@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
@@ -11,34 +11,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const steps = [
   {
-    step: "Étape 1",
+    step: "etape 1",
     title: "Consultation & briefing",
     description:
-      "Nous comprenons vos objectifs, votre site et votre vision avec clarté.",
+      "Nous comprenons vos objectifs, votre site et votre vision avec clarte.",
   },
   {
-    step: "Étape 2",
+    step: "etape 2",
     title: "Conception",
     description:
-      "Les premières esquisses, plans d'humeur et dispositions sont créés.",
+      "Les premieres esquisses, plans d'humeur et dispositions sont crees.",
   },
   {
-    step: "Étape 3",
-    title: "Développement du design",
+    step: "etape 3",
+    title: "Developpement du design",
     description:
-      "Les dessins techniques, matériaux et détails sont finalisés.",
+      "Les dessins techniques, materiaux et details sont finalises.",
   },
   {
-    step: "Étape 4",
-    title: "Affinage & révision",
+    step: "etape 4",
+    title: "Affinage & revision",
     description:
-      "Nous affinons chaque détail pour garantir la perfection du projet.",
+      "Nous affinons chaque detail pour garantir la perfection du projet.",
   },
   {
-    step: "Étape 5",
+    step: "etape 5",
     title: "Livraison du projet",
     description:
-      "Des permis à la supervision de la construction, nous gérons l'exécution.",
+      "Des permis a la supervision de la construction, nous gerons l'execution.",
   },
 ];
 
@@ -83,7 +83,7 @@ export default function HowWeWorkSection() {
         >
           <SectionHeading
             tag="Notre processus"
-            title="Un chemin vers la création"
+            title="Un chemin vers la creation"
             description="Nous croyons en la perfection avec la structure"
           />
         </motion.div>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,27 +8,27 @@ const faqItems = [
   {
     question: "Proposez-vous de la visualisation 3D ?",
     answer:
-      "Oui. Nous créons des rendus 3D photoréalistes pour les villas de luxe et les intérieurs, transformant vos plans en visuels marketing haut de gamme.",
+      "Oui. Nous creons des rendus 3D photorealistes pour les villas de luxe et les interieurs, transformant vos plans en visuels marketing haut de gamme.",
   },
   {
     question: "Combien de temps dure un projet typique ?",
     answer:
-      "Chez CKC, nous suivons un processus structuré — de la consultation et du développement conceptuel à l'affinage et à l'exécution du design — pour garantir que chaque projet soit réalisé efficacement sans compromettre la qualité.",
+      "Chez CKC, nous suivons un processus structure — de la consultation et du developpement conceptuel a l'affinage et a l'execution du design — pour garantir que chaque projet soit realise efficacement sans compromettre la qualite.",
   },
   {
-    question: "Travaillez-vous avec des startups ou uniquement des marques établies ?",
+    question: "Travaillez-vous avec des startups ou uniquement des marques etablies ?",
     answer:
-      "Nous travaillons avec les startups et les marques établies. Que vous lanciez un nouveau concept ou fassiez évoluer un espace existant, notre approche est adaptée à vos objectifs, votre vision et votre stade de croissance.",
+      "Nous travaillons avec les startups et les marques etablies. Que vous lanciez un nouveau concept ou fassiez evoluer un espace existant, notre approche est adaptee a vos objectifs, votre vision et votre stade de croissance.",
   },
   {
-    question: "Mon site gérera-t-il des images haute résolution ?",
+    question: "Mon site gerera-t-il des images haute resolution ?",
     answer:
-      "Oui, votre site est entièrement capable de gérer des images haute résolution. Nous optimisons chaque image pour les performances web, en veillant à ce qu'elles maintiennent leur qualité visuelle tout en se chargeant rapidement sur tous les appareils.",
+      "Oui, votre site est entierement capable de gerer des images haute resolution. Nous optimisons chaque image pour les performances web, en veillant a ce qu'elles maintiennent leur qualite visuelle tout en se chargeant rapidement sur tous les appareils.",
   },
   {
-    question: "Qu'est-il nécessaire pour démarrer un projet ?",
+    question: "Qu'est-il necessaire pour demarrer un projet ?",
     answer:
-      "Nous commencerons par une consultation initiale pour discuter de vos idées, suivie d'une proposition détaillant le calendrier, les livrables et le budget.",
+      "Nous commencerons par une consultation initiale pour discuter de vos idees, suivie d'une proposition detaillant le calendrier, les livrables et le budget.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function FAQSection() {
         >
           <SectionHeading
             tag="FAQ"
-            title="Questions fréquentes"
+            title="Questions frequentes"
           />
         </motion.div>
 

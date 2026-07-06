@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,12 +7,12 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const reviewStats = [
   {
     rating: "4.9",
-    label: "Des appartements urbains animés aux espaces paisibles...",
+    label: "Des appartements urbains animes aux espaces paisibles...",
     ratingLabel: "4.9 / 5.0",
   },
   {
     rating: "4.9",
-    label: "Économie moyenne pour les propriétaires",
+    label: "economie moyenne pour les proprietaires",
     ratingLabel: "4.9 / 5.0",
   },
 ];
@@ -20,26 +20,26 @@ const reviewStats = [
 const testimonials = [
   {
     name: "Devid Jones",
-    role: "Propriétaire",
-    text: "Plongez dans un monde où le luxe rencontre la durabilité, offrant un mélange harmonieux de confort et d'innovation.",
+    role: "Proprietaire",
+    text: "Plongez dans un monde ou le luxe rencontre la durabilite, offrant un melange harmonieux de confort et d'innovation.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
     name: "Sarah Mitchell",
-    role: "Développeuse immobilière",
-    text: "L'attention aux détails et l'engagement envers l'excellence ont transformé notre vision en réalité. Un travail vraiment exceptionnel.",
+    role: "Developpeuse immobiliere",
+    text: "L'attention aux details et l'engagement envers l'excellence ont transforme notre vision en realite. Un travail vraiment exceptionnel.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
     name: "Michael Chen",
     role: "Architecte",
-    text: "Travailler avec cette équipe a élevé notre projet au-delà de nos attentes. Leur approche innovante les distingue.",
+    text: "Travailler avec cette equipe a eleve notre projet au-dela de nos attentes. Leur approche innovante les distingue.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
   },
   {
     name: "Emily Watson",
-    role: "Designer d'intérieur",
-    text: "Chaque aspect du design a été traité avec précision et soin. Les résultats parlent d'eux-mêmes.",
+    role: "Designer d'interieur",
+    text: "Chaque aspect du design a ete traite avec precision et soin. Les resultats parlent d'eux-memes.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
   },
 ];
@@ -142,8 +142,8 @@ export default function ReviewsSection() {
         >
           <SectionHeading
             tag="Avis"
-            title="Écoutez nos clients"
-            description="Découvrez comment nos clients ont atteint le succès"
+            title="ecoutez nos clients"
+            description="Decouvrez comment nos clients ont atteint le succes"
           />
         </motion.div>
 

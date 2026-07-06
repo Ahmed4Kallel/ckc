@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -13,9 +13,9 @@ const serviceImages = [
 
 const serviceCards = [
   {
-    title: "Design résidentiel",
+    title: "Design residentiel",
     description:
-      "Nous intégrons des matériaux écologiques et des solutions écoénergétiques pour construire",
+      "Nous integrons des materiaux ecologiques et des solutions ecoenergetiques pour construire",
   },
   {
     title: "Design commercial",
@@ -25,20 +25,20 @@ const serviceCards = [
   {
     title: "Design paysager",
     description:
-      "L'expertise de notre équipe garantit professionnalisme et fiabilité, rendant",
+      "L'expertise de notre equipe garantit professionnalisme et fiabilite, rendant",
   },
 ];
 
 const interiorCard = {
-  title: "Design d'intérieur",
+  title: "Design d'interieur",
   description:
-    "L'expertise de notre équipe garantit professionnalisme et fiabilité, rendant votre",
+    "L'expertise de notre equipe garantit professionnalisme et fiabilite, rendant votre",
 };
 
 const sustainableCard = {
   title: "Architecte durable",
   description:
-    "Nos designs allient beauté et stabilité, garantissant durabilité et sécurité sans compromis",
+    "Nos designs allient beaute et stabilite, garantissant durabilite et securite sans compromis",
 };
 
 export default function ServicesSection() {

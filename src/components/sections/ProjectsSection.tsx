@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -38,8 +38,8 @@ export default function ProjectsSection() {
         >
           <SectionHeading
             tag="Projets"
-            title="Perfectionnée"
-            description="Notre portefeuille de designs primés qui ont transformé les lignes d'horizon"
+            title="Perfectionnee"
+            description="Notre portefeuille de designs primes qui ont transforme les lignes d'horizon"
             centered
           />
         </motion.div>

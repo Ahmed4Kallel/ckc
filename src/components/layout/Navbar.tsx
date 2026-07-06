@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -34,7 +34,7 @@ export default function Navbar() {
 
             <div className="hidden items-center gap-8 md:flex">
               <span className="text-xs font-medium uppercase tracking-widest text-[#535353]">
-                Basé à :
+                Base a :
               </span>
               {locations.map((loc) => (
                 <a

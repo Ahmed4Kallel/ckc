@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
@@ -13,8 +13,8 @@ const aboutImages = [
 ];
 
 const stats = [
-  { value: "10", suffix: "+", label: "Années d'expérience" },
-  { value: "500", suffix: "+", label: "Projets réalisés" },
+  { value: "10", suffix: "+", label: "Annees d'experience" },
+  { value: "500", suffix: "+", label: "Projets realises" },
   { value: "98", suffix: "%", label: "Satisfaction client" },
 ];
 
@@ -65,8 +65,8 @@ export default function AboutSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="À propos"
-            title="Découvrez l'architecture innovante"
+            tag="a propos"
+            title="Decouvrez l'architecture innovante"
           />
         </motion.div>
 
@@ -77,11 +77,11 @@ export default function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Nous combinons architecture innovante et esthétique fonctionnelle pour
-          créer des habitats intelligents intemporels. En nous concentrant sur la
-          conception réfléchie et les exigences de vie modernes, nous
+          Nous combinons architecture innovante et esthetique fonctionnelle pour
+          creer des habitats intelligents intemporels. En nous concentrant sur la
+          conception reflechie et les exigences de vie modernes, nous
           transformons des espaces compacts en environnements durables qui
-          inspirent et s'adaptent à votre style de vie.
+          inspirent et s'adaptent a votre style de vie.
         </motion.p>
 
         <div className="mb-16 grid grid-cols-2 gap-8 md:grid-cols-3">

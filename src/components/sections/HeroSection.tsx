@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import MarqueeStrip from "@/components/ui/MarqueeStrip";
@@ -35,7 +35,7 @@ const marqueeImages = [
   { src: "/images/hero/luxury_pool_ad.png", alt: "Spacious interior" },
 ];
 
-const tags = ["Planification intelligente", "Flux de travail fluide", "Exécution précise"];
+const tags = ["Planification intelligente", "Flux de travail fluide", "Execution precise"];
 
 export default function HeroSection() {
   return (
@@ -89,10 +89,10 @@ export default function HeroSection() {
 
             <motion.div className="md:w-1/2" variants={fadeUp}>
               <p className="mb-6 max-w-lg text-base leading-relaxed text-[#535353] md:text-lg">
-              _Nous créons des solutions architecturales innovantes avec des
-              dispositions structurées, une planification détaillée et des
-              processus de conception guidés offrant clarté, efficacité et
-              précision.
+              _Nous creons des solutions architecturales innovantes avec des
+              dispositions structurees, une planification detaillee et des
+              processus de conception guides offrant clarte, efficacite et
+              precision.
               </p>
 
               <MarqueeStrip reverse className="py-4" duration={15}>

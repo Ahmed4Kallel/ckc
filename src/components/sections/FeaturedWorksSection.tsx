@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,7 +8,7 @@ const features = [
   {
     mainImage: "/images/featured/Remove_logos_and_text_from_202607012107.jpeg",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Salle à manger", "Résidence Sérénité", "Espace de vie Aura"],
+    titles: ["Salle a manger", "Residence Serenite", "Espace de vie Aura"],
     details: [
       { label: "Surface", value: "400 m\u00B2" },
       { label: "Salle de bain", value: "2" },
@@ -18,7 +18,7 @@ const features = [
   {
     mainImage: "/images/featured/Remove_logos_and_text_from_202607012110.jpeg",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Résidence Sérénité", "Espace de vie Aura", "Salle à manger"],
+    titles: ["Residence Serenite", "Espace de vie Aura", "Salle a manger"],
     details: [
       { label: "Surface", value: "400 m\u00B2" },
       { label: "Salle de bain", value: "2" },
@@ -28,7 +28,7 @@ const features = [
   {
     mainImage: "/images/featured/ckc_pool_cleaned.png",
     smallImage: "/images/featured/ckc_pool_cleaned.png",
-    titles: ["Espace de vie Aura", "Salle à manger", "Résidence Sérénité"],
+    titles: ["Espace de vie Aura", "Salle a manger", "Residence Serenite"],
     details: [
       { label: "Surface", value: "400 m\u00B2" },
       { label: "Salle de bain", value: "2" },
@@ -121,9 +121,9 @@ export default function FeaturedWorksSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <SectionHeading
-            tag="Réalisations"
+            tag="Realisations"
             title="Nos œuvres signature"
-            description="Découvrez nos projets architecturaux les plus raffinés et à fort impact, créés avec précision, créativité et esthétique moderne."
+            description="Decouvrez nos projets architecturaux les plus raffines et a fort impact, crees avec precision, creativite et esthetique moderne."
           />
         </motion.div>
 
