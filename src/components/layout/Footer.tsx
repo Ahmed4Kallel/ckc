@@ -163,23 +163,12 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 border-t border-white/10 pt-8">
-          <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between">
+          <div className="flex justify-center">
             <p className="text-sm text-white/40">
               &copy; Tous droits reserves{" "}
               <Link href="/" className="hover:text-white/60">
                 CKC
               </Link>
-            </p>
-            <p className="text-sm text-white/40">
-              Propulse par{" "}
-              <a
-                href="https://github.com/Ahmed4Kallel/ckc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white/60"
-              >
-                CKC
-              </a>
             </p>
           </div>
         </div>
