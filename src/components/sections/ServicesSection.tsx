@@ -119,8 +119,8 @@ export default function ServicesSection() {
           <div className="space-y-8">
             <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
               <img
-                src="/images/services/ckc_pool_cleaned.png"
-                alt="Modern living room"
+                src="/images/services/asss.png"
+                alt="Piscine moderne"
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <CardOverlay />
