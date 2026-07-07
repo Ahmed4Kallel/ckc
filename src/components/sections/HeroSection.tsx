@@ -30,9 +30,9 @@ const scaleIn = {
 };
 
 const marqueeImages = [
-  { src: "/images/hero/Remove_logos_and_text_from_202607012107.jpeg", alt: "Modern house" },
-  { src: "/images/hero/Remove_logos_and_text_from_202607012110.jpeg", alt: "Modern living room" },
-  { src: "/images/hero/luxury_pool_ad.png", alt: "Spacious interior" },
+  { src: "/images/hero/C11_Architectural (1).png", alt: "Vue architecturale" },
+  { src: "/images/hero/C15_Perspective_Illusion.png", alt: "Perspective illusion" },
+  { src: "/images/hero/luxury_pool_ad.png", alt: "Piscine de luxe" },
 ];
 
 const tags = ["Planification intelligente", "Flux de travail fluide", "Execution precise"];
@@ -49,8 +49,8 @@ export default function HeroSection() {
         >
           <div className="relative h-[500px] overflow-hidden rounded-lg md:h-[600px] lg:h-[700px]">
             <motion.img
-              src="/images/hero/Remove_logos_and_text_from_202607012107.jpeg"
-              alt="Clear blue sky with a few scattered white clouds"
+              src="/images/hero/C15_Perspective_Illusion.png"
+              alt="Perspective architecturale"
               className="absolute inset-0 h-full w-full object-cover"
               variants={scaleIn}
             />
