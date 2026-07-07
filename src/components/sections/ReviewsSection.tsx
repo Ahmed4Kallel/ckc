@@ -19,25 +19,25 @@ const reviewStats = [
 
 const testimonials = [
   {
-    name: "Devid Jones",
+    name: "Ahmed Ben Ali",
     role: "Proprietaire",
     text: "Plongez dans un monde ou le luxe rencontre la durabilite, offrant un melange harmonieux de confort et d'innovation.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012107.jpeg",
   },
   {
-    name: "Sarah Mitchell",
+    name: "Fatma Trabelsi",
     role: "Developpeuse immobiliere",
     text: "L'attention aux details et l'engagement envers l'excellence ont transforme notre vision en realite. Un travail vraiment exceptionnel.",
     avatar: "/images/reviews/Remove_logos_and_text_from_202607012110.jpeg",
   },
   {
-    name: "Michael Chen",
+    name: "Mohamed Sahli",
     role: "Architecte",
     text: "Travailler avec cette equipe a eleve notre projet au-dela de nos attentes. Leur approche innovante les distingue.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
   },
   {
-    name: "Emily Watson",
+    name: "Amira Bouazizi",
     role: "Designer d'interieur",
     text: "Chaque aspect du design a ete traite avec precision et soin. Les resultats parlent d'eux-memes.",
     avatar: "/images/reviews/ckc_pool_cleaned.png",
